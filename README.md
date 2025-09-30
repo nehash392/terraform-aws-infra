@@ -23,6 +23,18 @@ It demonstrates reusable modules, remote state management, and modular architect
 
 ---
 
+## Architecture Diagram
+
+```mermaid
+graph TD
+    A[Terraform] --> B[AWS Provider]
+    B --> C[VPC]
+    C --> D[Public Subnet]
+    D --> E[EC2 Instance]
+    C --> F[RDS Instance]
+    C --> G[Internet Gateway]
+    G --> D
+
 
 Description:
 
@@ -32,9 +44,7 @@ EC2 Instance → Application server
 RDS Instance → Managed MySQL database
 Internet Gateway → Provides internet access to public subnet
 
-
 Project Structure
-
 terraform-aws-infra/
 │── modules/
 │   ├── vpc/
@@ -95,3 +105,9 @@ Infrastructure as Code (IaC) principles
 Modular Terraform project structure
 Remote state management with S3 + DynamoDB
 Deploying multi-tier AWS infrastructure
+
+Notes
+
+This project will create real AWS resources → may incur costs.
+For portfolio purposes, run up to terraform plan and take screenshots instead of applying resources.
+
