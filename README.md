@@ -44,7 +44,9 @@ EC2 Instance → Application server
 RDS Instance → Managed MySQL database
 Internet Gateway → Provides internet access to public subnet
 
-Project Structure
+## 📂 Project Structure
+
+```text
 terraform-aws-infra/
 │── modules/
 │   ├── vpc/
