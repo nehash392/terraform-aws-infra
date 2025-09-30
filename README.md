@@ -26,14 +26,6 @@ It demonstrates reusable modules, remote state management, and modular architect
 ## Architecture Diagram
 
 ```mermaid
-graph TD
-    A[Terraform] --> B[AWS Provider]
-    B --> C[VPC]
-    C --> D[Public Subnet]
-    D --> E[EC2 Instance]
-    C --> F[RDS Instance]
-    C --> G[Internet Gateway]
-    G --> D
 
 
 Description:
