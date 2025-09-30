@@ -25,9 +25,6 @@ It demonstrates reusable modules, remote state management, and modular architect
 
 ## Architecture Diagram
 
-```mermaid
-
-
 Description:
 
 VPC → Isolated network environment
