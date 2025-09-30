@@ -105,9 +105,3 @@ Infrastructure as Code (IaC) principles
 Modular Terraform project structure
 Remote state management with S3 + DynamoDB
 Deploying multi-tier AWS infrastructure
-
-Notes
-
-This project will create real AWS resources → may incur costs.
-For portfolio purposes, run up to terraform plan and take screenshots instead of applying resources.
-
