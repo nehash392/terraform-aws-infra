@@ -49,9 +49,9 @@ terraform-aws-infra/
 │── terraform.tfvars
 │── README.md
 │── .gitignore
+```
 
-
-Getting Started
+## Getting Started
 
 1. Prerequisites
 
