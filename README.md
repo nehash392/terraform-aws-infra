@@ -89,7 +89,7 @@ Outputs
 ec2_public_ip → Public IP of EC2 instance
 rds_endpoint → Database connection endpoint
 
-Learning Objectives
+## Learning Objectives
 
 This project demonstrates:
 Infrastructure as Code (IaC) principles
